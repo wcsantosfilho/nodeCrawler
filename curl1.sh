@@ -1,0 +1,11 @@
+curl 'http://www.loterias.caixa.gov.br/wps/portal/loterias/landing/megasena' \
+  -H 'Connection: keep-alive' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cookie: _ga=GA1.3.764137790.1597514589; _fbp=fb.2.1597514589972.1019605235; security=true; ai_user=uxUM6|2020-12-28T19:03:06.096Z; _ga=GA1.4.764137790.1597514589; _gid=GA1.4.1067380567.1611606460; JSESSIONID=00000TF8Ot9wYtirfGScYQVFTpN:19798h3rl; _pk_ref.4.968f=%5B%22%22%2C%22%22%2C1611621946%2C%22https%3A%2F%2Fwww.google.com%2F%22%5D; _pk_id.4.968f=4f0f51c572799e20.1599758344.5.1611621946.1611621946.' \
+  --compressed \
+  --insecure \
+  -o a1.txt
